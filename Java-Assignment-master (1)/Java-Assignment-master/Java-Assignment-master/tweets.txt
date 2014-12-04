@@ -1,0 +1,169 @@
+{
+	"tweets": [
+	{
+		"id": "James Davies",
+		"date-time": "01/11/14",
+		"message": "Die unhappy",
+		"coordinates": [47.721891, 
+		-122.689050]
+	},
+	{
+		"id": "James Davies",
+		"date-time": "02/11/14",
+		"message": "Still no like with nonabsorbent skills",
+		"coordinates": [48.075443,
+		-120.052331]
+	},
+	{
+		"id": "James Davies",
+		"date-time": "03/11/14",
+		"message": "Finally I'm absorbent like a sponge!",
+		"coordinates": [47.067435,
+		-117.811121]
+	},
+	{
+		"id": "Philip Jones",
+		"date-time": "01/01/14",
+		"message": "Happy New Year",
+		"coordinates": [48.251314, -116.273035]
+	},
+	{
+		"id": "Philip Jones",
+		"date-time": "31/12/13",
+		"message": "The rife smell of fireworks still lingers",
+		"coordinates": [47.987281, -111.702723]
+	},
+	{
+		"id": "Philip Jones",
+		"date-time": "02/01/14",
+		"message": "WRITE_SOMETHING_MEANINGFUL_HERE",
+		"coordinates": [43.895050, -113.108973]
+	},
+	{
+		"id": "William Howard",
+		"date-time": "04/04/14",
+		"message": "This is a lovely half-holiday",
+		"coordinates": [48.251314, -102.869716]
+	},
+	{
+		"id": "William Howard",
+		"date-time": "07/04/14",
+		"message": "Their shelf_life is expiring soon",
+		"coordinates": [46.495677, -101.595302]
+	},
+	{
+		"id": "William Howard",
+		"date-time": "11/04/14",
+		"message": "life is short just like a mellennium",
+		"coordinates": [46.857494, -100.672450]
+	},
+	{
+		"id": "Steve Jones",
+		"date-time": "25/06/99",
+		"message": "My immortality is wearing off",
+		"coordinates": [47.662731, -95.838466]
+	},
+	{
+		"id": "Steve Jones",
+		"date-time": "27/06/99",
+		"message": "summer cant come soon enough",
+		"coordinates": [44.084751, -94.212490]
+	},
+	{
+		"id": "Steve Jones",
+		"date-time": "30/06/99",
+		"message": "for the time being i'm stuck",
+		"coordinates": [45.179256, -93.113857]
+	},
+	{
+		"id": "Nigel Phillips",
+		"date-time": "23/07/09",
+		"message": "this midweek sale cant come soon enough",
+		"coordinates": [45.148271, -123.348230]
+	},
+	{
+		"id": "Nigel Phillips",
+		"date-time": "31/01/12",
+		"message": "for the time_being it is going good",
+		"coordinates": [45.148271, -121.810144]
+	},
+	{
+		"id": "Nigel Phillips",
+		"date-time": "01/02/89",
+		"message": "great honeymoon shame it didn't last longer",
+		"coordinates": [43.736502, -119.964441]
+	},
+	{
+		"id": "Tom James",
+		"date-time": "09/06/12",
+		"message": "having the time_of_life out here",
+		"coordinates": [43.926709, -110.340418]
+	},
+	{
+		"id": "Tom James",
+		"date-time": "10/06/12",
+		"message": "mothers_day is just around the corner ",
+		"coordinates": [42.225596, -108.890223]
+	},
+	{
+		"id": "Tom James",
+		"date-time": "21/06/12",
+		"message": "age is just a number",
+		"coordinates": [43.098103, -107.615809]
+	},
+	{
+		"id": "Shaun Williams",
+		"date-time": "08/09/14",
+		"message": "How can this possibly be the case",
+		"coordinates": [42.127896, -102.781825]
+	},
+	{
+		"id": "Shaun Williams",
+		"date-time": "10/09/14",
+		"message": "soon to be christmas",
+		"coordinates": [43.513828, -101.902919]
+	},
+	{
+		"id": "Shaun Williams",
+		"date-time": "13/09/14",
+		"message": "so much christmas shopping to do",
+		"coordinates": [45.395680, -97.376552]
+	},
+	{
+		"id": "Joe Foster",
+		"date-time": "23/02/13",
+		"message": "I do not get the hang of this work",
+		"coordinates": [43.958351, -88.543545]
+	},
+	{
+		"id": "Joe Foster",
+		"date-time": "25/02/13",
+		"message": "this is starting to get really boring",
+		"coordinates": [43.863374, -88.675381]
+	},
+	{
+		"id": "Joe Foster",
+		"date-time": "27/02/13",
+		"message": "how can this be fun",
+		"coordinates": [45.488180, -88.367764]
+	},
+	{
+		"id": "Mark Williams",
+		"date-time": "11/09/13",
+		"message": "This over time is starting to get on my nerves now",
+		"coordinates": [31.425297, -84.236905]
+	},
+	{
+		"id": "Mark Williams",
+		"date-time": "14/09/14",
+		"message": "I will be lodging a complaint",
+		"coordinates": [32.543488, -82.127530]
+	},
+	{
+		"id": "Mark Williams",
+		"date-time": "26/04/12",
+		"message": "a full month_of_sundays ouch!",
+		"coordinates": [34.303885, -84.236905]
+	}
+]
+}

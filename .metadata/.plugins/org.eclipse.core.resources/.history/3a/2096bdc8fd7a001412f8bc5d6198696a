@@ -1,0 +1,13 @@
+package st20024617;
+public class Map {
+	 public Double array(Double Result, Double longi, Double lat, int maxlongi, int maxlat){
+	  
+	 double[][] map = new double [3][3];
+	
+	
+	 if (longi <= 0 && longi >= maxlongi/3 && lat <= 0 && lat >= maxlat/3){	 
+		 map[0][0] = map[0][0] + Result;
+	 }
+return map[0][0];
+	}
+}

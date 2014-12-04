@@ -1,0 +1,23 @@
+package st20024617;
+
+public class Map {
+
+	 public Double array(Double longi, Double lat){
+	  
+	 double[][] map = {
+			 {0.00,0.00,0.00},
+			 {0.00,0.00,0.00},
+			 {0.00,0.00,0.00},
+	 				};
+	 
+	 for(int y = 0; y <= 3; y++){  
+	 }for(int x = 0; x <= 3; x++){
+	  if(longi >= 0 && longi < 10 && lat >= 0 && lat < 10){
+	   map[0][0] = 1;
+	  }
+	  
+	 }
+	 return lat;
+	 
+	 }
+	}

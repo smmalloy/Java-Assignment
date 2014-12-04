@@ -1,0 +1,33 @@
+package st20024617;
+
+import java.io.FileNotFoundException;
+
+import org.json.JSONException;
+
+public class Main {
+
+	public static void main(String[] args) throws FileNotFoundException, JSONException {
+		SWN3 swn3 = new SWN3();		
+		Parser.parse();
+	//String result = swn3.classifytweet("happy");
+		
+		//System.out.println(result);
+		
+		
+		
+		/*System.out.println("!!!start!!!"); 
+		another swn=new another(); 
+		System.out.println("!!!"+swn.extract("little", "n") ); //wanton: [0.0, 0.625]  little,a: [0.0, 0.375]  little,n: [0.0, 0.25]
+
+		try{
+		another2 sentiwordnet = new another2();
+		
+		System.out.println("good#a "+sentiwordnet.extract("good", "a"));
+		System.out.println("bad#a "+sentiwordnet.extract("bad", "a"));
+		System.out.println("blue#a "+sentiwordnet.extract("blue", "a"));
+		System.out.println("blue#n "+sentiwordnet.extract("blue", "n"));
+		}catch(Exception e){}
+		*/
+	}
+
+}

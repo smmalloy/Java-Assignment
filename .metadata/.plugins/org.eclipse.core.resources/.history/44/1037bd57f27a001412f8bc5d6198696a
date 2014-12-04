@@ -1,0 +1,86 @@
+package st20024617;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class Parser {
+	public static String tweet;
+	
+	public static void parse() throws FileNotFoundException,JSONException {
+		String tweets = "";
+		BufferedReader br = null;
+		try {
+			String line;
+			// H:\\Java\\Java-Assignment-master\\Java-Assignment-master
+			FileReader fr = new FileReader("C:\\tweets.txt");
+			br = new BufferedReader(fr);
+			while ((line = br.readLine()) != null) {
+				tweets += line + "\n";
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (br != null)
+					br.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+		//System.out.println("File Content: \n" + tweets);
+		JSONObject js = new JSONObject(tweets);	
+		
+
+
+		JSONArray jsarray =  js.getJSONArray("tweets");
+		
+	    int size = jsarray.length();
+
+	    for (int i = 0; i < size; i++)
+	    {
+	        JSONObject user = jsarray.getJSONObject(i);
+
+	        //System.out.println("Message: " + user.getString("message"));
+	        SWN3 SWN3 = new SWN3();
+	        Double result = SWN3.extractSentence(user.getString("message").toLowerCase().split(" "));
+	        //System.out.println(result);
+	        
+			JSONArray coords = jsarray.getJSONObject(i).getJSONArray(
+					"coordinates");
+			double longi = 0.0;
+			double lat = 0.0;
+			double maxlongi = 0.0;
+			double maxlat = -1000000000000.0;
+			longi = (Double) coords.get(0);
+			lat = (Double) coords.get(1);
+			
+			if (lat > maxlat){
+				maxlat = lat;
+			}
+			if (maxlongi < longi){
+				maxlongi = longi;
+			}
+					//System.out.println("Lat: " + (longi));
+		System.out.println("MAxLat: " + (maxlat));
+		System.out.println("maxlong: " + (maxlongi));
+			//Coordinates coord = new Coordinates(longi, lat);
+	        
+	        //System.out.println("user: " + user.getString("coordinates"));
+	    }
+
+		
+
+		
+	//	System.out.println("id: " + js.getJSONArray("tweets"));
+				
+		//System.out.println("message: " + obj.getJSONObject("message"));	
+		//System.out.println("coordinates: " + obj.getJSONObject("coordinates"));
+	}
+
+}
