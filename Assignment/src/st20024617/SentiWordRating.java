@@ -25,16 +25,10 @@ public class SentiWordRating {
 	{
 		//Convert filepath to file and check if it exists before updating filepath variable
 		File file = new File (filePath);
-		if (file.exists() && !file.isDirectory())
-		{
-			this.FilePath=filePath;
-		}
-		else
-		{
-			throw new IOException("Error - File does not exist at this location: " + filePath);
+			FilePath = "H:\\Java-Assignment-master\\Java-Assignment-master\\tweets.txt";
 		}
 
-	}
+	
 
 	public String getFilePath()
 	{

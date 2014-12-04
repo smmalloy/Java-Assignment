@@ -3,7 +3,7 @@
 	{
 		"id": "James Davies",
 		"date-time": "01/11/14",
-		"message": "I have been unable to progress my spongelike ability",
+		"message": "Die unhappy",
 		"coordinates": [47.721891, 
 		-122.689050]
 	},
